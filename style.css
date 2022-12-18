@@ -1,5 +1,21 @@
 body{
-    background-color: black;
+    background-color:whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    align-items: stretch;
+    text-align: center;
+    margin: 0;
+}
+
+h1{
+    font-size: 100px;
+    text-align: center;
+}
+
+.sinmenu{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,8 +29,7 @@ body{
     max-height: 120px;
     min-height: 120px;
     min-width: 120px;
-    padding: 20px;
-    background-color: aliceblue;
+    box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.75);
 }
 
 .pixel{
@@ -25,7 +40,7 @@ body{
 }
 
 .menu{
-    background: linear-gradient(to right, #4DD3C0, #0da336);
+    /* background: linear-gradient(to right, #4DD3C0, #0da336); */
     display: flex;
     gap: 20px;
     flex-direction: column;
@@ -33,3 +48,21 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+button{
+    transition-duration: 0.4s;
+    border-radius: 8px;
+}
+  
+button:hover{
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  *{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
