@@ -21,6 +21,7 @@ function seleccionusuario(cantidad){
             break;
     }
     document.querySelector('.zonadibujo').style.maxWidth = (cantidad * tamanocuadritos)+'px';
+    document.querySelector('.zonadibujo').style.maxHeight = (cantidad * tamanocuadritos)+'px';
     crearcuadro(tamanocuadritos);
     $zonadibujo.appendChild(fragmentocontenedor);
 }
