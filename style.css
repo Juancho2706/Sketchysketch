@@ -3,7 +3,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    gap: 20px;
 }
 
 .zonadibujo{
@@ -19,4 +19,16 @@ body{
     background-color: white;
     width: 20px;
     height: 20px;
+    user-select: none;
+}
+
+.menu{
+    background-color:yellowgreen;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
 }
